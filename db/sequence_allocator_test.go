@@ -12,6 +12,8 @@ import (
 
 func TestSequenceAllocator(t *testing.T) {
 
+	t.Skip("toy build")
+
 	testBucket := testBucket(t)
 	defer testBucket.Close()
 	bucket := testBucket.Bucket
@@ -76,6 +78,7 @@ func TestSequenceAllocator(t *testing.T) {
 
 func TestReleaseSequencesOnStop(t *testing.T) {
 
+	t.Skip("toy build")
 	testBucket := testBucket(t)
 	defer testBucket.Close()
 	bucket := testBucket.Bucket
