@@ -33,7 +33,7 @@ The most **important information** to provide with a bug report is a clear set o
 
 As mentioned above, the last thing in your steps to reproduce is the "actual vs expected" behavior.  The reason this is important is because you may have a gross misunderstanding on what is supposed to happen.  If you give a clear description of what actually happened as well as what you were expecting to happen, it will make the bug a lot easier to figure out.
 
-## General Formatting
+## General Formating
 
 Please **format source code or program output (including logs or backtraces) as code**. This makes it easier to read and prevents Github from interpreting any of it as Markdown formatting or bug numbers. To do this, put a line of just three back-quotes ("```") before and after it. (For inline code snippets, just put a single back-quote before and after.)
 
